@@ -22,29 +22,32 @@ namespace Web_API.Controllers
             return Ok(_studentService.GetAll());
         }
 
-        // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            return Ok(
+                _studentService.Get(id));
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] Students model)
         {
+            return Ok(_studentService.Add(model));
         }
 
         // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public IActionResult Put([FromBody] Students model)
         {
+            return Ok( _studentService.Add(model));
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            return Ok( _studentService.Delete(id));
         }
     }
 }
