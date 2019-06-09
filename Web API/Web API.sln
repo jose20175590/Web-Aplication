@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web API", "Web API.csproj", "{049905FE-291D-46F0-B668-A8E75047DA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\Model\Model.csproj", "{AB9B0621-7B11-4880-868A-FDC112B0A4F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "..\Persistence\Persistence.csproj", "{BC0CCD22-CAC3-4C28-86A3-FD33F7B69646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049905FE-291D-46F0-B668-A8E75047DA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049905FE-291D-46F0-B668-A8E75047DA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049905FE-291D-46F0-B668-A8E75047DA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049905FE-291D-46F0-B668-A8E75047DA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9B0621-7B11-4880-868A-FDC112B0A4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9B0621-7B11-4880-868A-FDC112B0A4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9B0621-7B11-4880-868A-FDC112B0A4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9B0621-7B11-4880-868A-FDC112B0A4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0CCD22-CAC3-4C28-86A3-FD33F7B69646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0CCD22-CAC3-4C28-86A3-FD33F7B69646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0CCD22-CAC3-4C28-86A3-FD33F7B69646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0CCD22-CAC3-4C28-86A3-FD33F7B69646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4297DA3D-AF06-4267-827D-3A114F3692F2}
+	EndGlobalSection
+EndGlobal
