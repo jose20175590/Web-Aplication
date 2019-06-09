@@ -29,6 +29,7 @@ namespace Web_API
         {
             var connection = Configuration.GetConnectionString("Dev");
             services.AddDbContext<StudentDbContext>(options => options.UseSqlServer(connection));
+            services.AddTransient<IStudentService, StudentService>();
             services.AddMvc();
         }
 
